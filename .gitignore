@@ -1,0 +1,15 @@
+bundle.js
+bundle.js.map
+manifest.js
+vendor.js
+/config.json
+node_modules
+data/
+output/
+public/data
+public/fonts
+public/index.html
+public/mix-manifest.json
+public/hot
+public/main.css
+public/worker.js

@@ -1,0 +1,22 @@
+{
+    "nl": {
+        "language": "Nederlands",
+        "messages": {
+            "title": "Sprintrapportage",
+            "projects-deselect": "(Geen)",
+            "sprint-title": "Sprint bekijken (als je toegang hebt)",
+            "sprint-header": "#%s",
+            "error-message": "Kon gegevens niet laden: %s"
+        }
+    },
+    "en": {
+        "language": "English",
+        "messages": {
+            "title": "Sprint report",
+            "projects-deselect": "(None)",
+            "sprint-title": "View sprint (if you have access)",
+            "sprint-header": "#%s",
+            "error-message": "Could not load data: %s"
+        }
+    }
+}

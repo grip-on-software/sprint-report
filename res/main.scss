@@ -1,0 +1,31 @@
+@import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fontawesome";
+@import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fa-brands";
+@import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fa-regular";
+@import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fa-solid";
+@import "node_modules/bulma/bulma";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+    margin-bottom: 10px;    
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+}
+
+#header h1 {
+    padding: 1.5rem;
+}
+
+.tabs ul {
+    flex-wrap: wrap;
+}
+
+.section.is-small {
+    padding: 1.5rem;
+}
+
+article.section {
+    padding: 1.5rem 0 1.5rem 0;
+}

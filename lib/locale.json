@@ -9,7 +9,14 @@
             "sprints-header": "Sprints",
             "sprint-title": "Sprint bekijken (als je toegang hebt)",
             "sprint-number": "#%s",
+            "date-title": "%s (%s)",
             "error-message": "Kon gegevens niet laden: %s"
+        },
+        "sprint_meta": {
+            "sprint_name": "Sprintnaam",
+            "sprint_num": "Sprintnummer",
+            "start_date": "Begindatum",
+            "close_date": "Sluitdatum"
         }
     },
     "en": {
@@ -22,7 +29,14 @@
             "sprints-header": "Sprints",
             "sprint-title": "View sprint (if you have access)",
             "sprint-number": "#%s",
+            "date-title": "%s (%s)",
             "error-message": "Could not load data: %s"
+        },
+        "sprint_meta": {
+            "sprint_name": "Sprint name",
+            "sprint_num": "Sprint number",
+            "start_date": "Starting date",
+            "close_date": "Closing date"
         }
     }
 }

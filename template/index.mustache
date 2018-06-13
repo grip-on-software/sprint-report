@@ -21,7 +21,25 @@
     <div class="container">
         <section class="section is-small">
             <!-- Project navigation -->
-            <div id="navigation" class="tabs is-toggle">
+            <div class="columns">
+                <div class="column is-narrow">
+                    <h2 data-message="projects-header">Projects</h2>
+                </div>
+                <div class="column">
+                    <div id="navigation" class="tabs is-toggle">
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-narrow">
+                    <h2 data-message="features-header">Features</h2>
+                </div>
+                <div class="column">
+                    <div id="features" class="tabs is-toggle is-size-7">
+                        <ul></ul>
+                    </div>
+                </div>
             </div>
 
             <div id="error-message" class="notification is-danger is-hidden"></div>
@@ -32,8 +50,8 @@
         <div id="content">
             <div class="container">
                 <section class="section">
-					<table class="table is-bordered">
-					</table>
+                    <table class="table is-bordered is-striped">
+                    </table>
                 </section>
             </div>
         </div>

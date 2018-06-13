@@ -4,8 +4,11 @@
         "messages": {
             "title": "Sprintrapportage",
             "projects-deselect": "(Geen)",
+            "projects-header": "Projecten",
+            "features-header": "Attributen",
+            "sprints-header": "Sprints",
             "sprint-title": "Sprint bekijken (als je toegang hebt)",
-            "sprint-header": "#%s",
+            "sprint-number": "#%s",
             "error-message": "Kon gegevens niet laden: %s"
         }
     },
@@ -14,8 +17,11 @@
         "messages": {
             "title": "Sprint report",
             "projects-deselect": "(None)",
+            "projects-header": "Projects",
+            "features-header": "Features",
+            "sprints-header": "Sprints",
             "sprint-title": "View sprint (if you have access)",
-            "sprint-header": "#%s",
+            "sprint-number": "#%s",
             "error-message": "Could not load data: %s"
         }
     }

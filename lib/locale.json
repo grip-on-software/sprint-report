@@ -12,7 +12,8 @@
             "sprint-title": "Sprint bekijken (als je toegang hebt)",
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
-            "error-message": "Kon gegevens niet laden: %s"
+            "error-message": "Kon gegevens niet laden: %s",
+            "no-value": "N/A"
         },
         "sprint_meta": {
             "sprint_name": "Sprintnaam",
@@ -34,7 +35,8 @@
             "sprint-title": "View sprint (if you have access)",
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
-            "error-message": "Could not load data: %s"
+            "error-message": "Could not load data: %s",
+            "no-value": "n/a"
         },
         "sprint_meta": {
             "sprint_name": "Sprint name",

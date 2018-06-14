@@ -3,6 +3,7 @@
 @import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fa-regular";
 @import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fa-solid";
 @import "node_modules/bulma/bulma";
+@import "node_modules/bulma-slider/dist/bulma-slider";
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -22,6 +23,14 @@ body {
     flex-wrap: wrap;
 }
 
+#config .checkbox {
+    margin: .5rem 0;
+}
+
+#config .checkbox input {
+    margin-right: .25rem;
+}
+
 #features a span {
 	padding-left: .5rem;
 }
@@ -32,4 +41,8 @@ body {
 
 article.section {
     padding: 1.5rem 0 1.5rem 0;
+}
+
+.table .icon {
+    padding-left: .5rem;
 }

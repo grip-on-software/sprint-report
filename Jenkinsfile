@@ -97,7 +97,6 @@ pipeline {
             }
             steps {
                 withCredentials([file(credentialsId: 'sprint-report-config', variable: 'SPRINT_REPORT_CONFIGURATION')]) {
-                    sh 'cp $SPRINT_REPORT_CONFIGURATION config.json'
                     sh 'rm -rf public/data/'
                     sh 'mkdir -p public/'
                     sh 'mv output/recent_sprint_features/ public/data/'

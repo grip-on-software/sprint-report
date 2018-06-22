@@ -1,8 +1,11 @@
-let fs = require('fs'),
-    mix = require('laravel-mix');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const fs = require('fs'),
+      mix = require('laravel-mix'),
+      HtmlWebpackPlugin = require('html-webpack-plugin');
 
-let config = path.resolve(__dirname, 'config.json');
+let config = process.env.SPRINT_REPORT_CONFIGURATION;
+if (config === undefined || !fs.existsSync(config)) {
+    config = path.resolve(__dirname, 'config.json');
+}
 if (!fs.existsSync(config)) {
     config = path.resolve(__dirname, 'lib/config.json');
 }
@@ -21,6 +24,13 @@ mix.setPublicPath('public/')
             'public/**/*.js',
             'public/**/*.css'
         ]
+    })
+    .babelConfig({
+        "env": {
+            "test": {
+                "plugins": [ "istanbul" ]
+            }
+        }
     })
     .webpackConfig({
         devtool: 'source-map',

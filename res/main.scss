@@ -31,7 +31,11 @@ body {
     margin-right: .25rem;
 }
 
-#features a span {
+.tabs.is-check {
+	margin: .25rem 0;
+}
+
+.tabs.is-check a span {
 	padding-left: .5rem;
 }
 

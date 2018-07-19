@@ -23,6 +23,14 @@
             "sprint_num": "Sprintnummer",
             "start_date": "Begindatum",
             "close_date": "Sluitdatum"
+        },
+        "project-filter": {
+            "recent": "Recente projecten",
+            "support": "Supportteams"
+        },
+        "project-filter-title": {
+            "recent": "Alleen recente projecten tonen",
+            "support": "Ook projecten van supportteams tonen"
         }
     },
     "en": {
@@ -49,6 +57,14 @@
             "sprint_num": "Sprint number",
             "start_date": "Starting date",
             "close_date": "Closing date"
+        },
+        "project-filter": {
+            "recent": "Recent projects",
+            "support": "Support teams"
+        },
+        "project-filter-title": {
+            "recent": "Only show recent projects",
+            "support": "Show support team projects as well as main projects"
         }
     }
 }

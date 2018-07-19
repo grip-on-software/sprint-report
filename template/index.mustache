@@ -45,10 +45,16 @@
 							<input type="range" id="num-sprints" class="slider has-output" min="1" step="1">
 							<output for="num-sprints"></output>
                         </div>
-                        <div class="column" id="sprints-closed">
+                        <div class="column is-narrow" id="sprints-closed">
                             <label class="checkbox">
 								<input type="checkbox">
 								<span data-message="sprints-closed-only"></span>
+                            </label>
+                        </div>
+                        <div class="column" id="sprints-old">
+                            <label class="checkbox">
+								<input type="checkbox">
+								<span data-message="sprints-show-old"></span>
                             </label>
                         </div>
                     </div>
@@ -73,10 +79,10 @@
     <div id="container">
         <div id="content">
             <div class="container">
-                <section class="section">
+                <article class="section">
                     <table class="table is-bordered is-striped">
                     </table>
-                </section>
+                </article>
             </div>
         </div>
     </div>

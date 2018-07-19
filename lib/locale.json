@@ -9,6 +9,7 @@
             "projects-select-all": "(Alle)",
             "projects-header": "Projecten",
             "features-header": "Attributen",
+            "format-header": "Formaat",
             "sprints-header": "Sprints",
             "sprints-closed-only": "Alleen afgesloten",
             "sprints-show-old": "Oude sprints",
@@ -17,6 +18,10 @@
             "date-title": "%s (%s)",
             "error-message": "Kon gegevens niet laden: %s",
             "no-value": "N/A"
+        },
+        "formats": {
+            "table": "Tabel",
+            "line_chart": "Lijngrafiek"
         },
         "sprint_meta": {
             "sprint_name": "Sprintnaam",
@@ -43,6 +48,7 @@
             "projects-select-all": "(All)",
             "projects-header": "Projects",
             "features-header": "Features",
+            "format-header": "Format",
             "sprints-header": "Sprints",
             "sprints-closed-only": "Closed only",
             "sprints-show-old": "Old sprints",
@@ -51,6 +57,10 @@
             "date-title": "%s (%s)",
             "error-message": "Could not load data: %s",
             "no-value": "n/a"
+        },
+        "formats": {
+            "table": "Table",
+            "line_chart": "Line chart"
         },
         "sprint_meta": {
             "sprint_name": "Sprint name",

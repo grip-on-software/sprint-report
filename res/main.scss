@@ -56,3 +56,24 @@ article.section {
 .table .icon {
     padding-left: .5rem;
 }
+
+.focus circle {
+    fill: #F1F3F3;
+    stroke: rgb(0, 67, 125);
+    stroke-width: 2px;
+    fill-opacity: .5;
+}
+
+.focus line {
+    stroke: #555;
+    stroke-width: 1px;
+}
+
+.focus .tooltip tspan {
+    fill: #F1F3F3;
+    font-size: .8em;
+}
+
+.focus .tooltip rect {
+    border-radius: 20px;
+}

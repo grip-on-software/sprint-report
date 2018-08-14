@@ -57,6 +57,10 @@ article.section {
     padding-left: .5rem;
 }
 
+svg.chart {
+	overflow: visible;
+}
+
 .focus circle {
     fill: #F1F3F3;
     stroke: rgb(0, 67, 125);
@@ -72,6 +76,10 @@ article.section {
 .focus .tooltip tspan {
     fill: #F1F3F3;
     font-size: .8em;
+}
+
+.focus .tooltip tspan.highlight {
+	font-weight: bold;
 }
 
 .focus .tooltip rect {

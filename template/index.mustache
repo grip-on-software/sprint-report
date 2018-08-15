@@ -18,11 +18,11 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="options">
         <section class="section is-small">
             <div class="columns">
                 <div class="column is-narrow">
-                    <a class="icon" id="config-toggle">
+                    <a class="icon toggle" data-toggle="config" data-hidden="fa-cog" data-shown="fa-cogs">
                         <i class="fas fa-cogs"></i>
                     </a>
                 </div>
@@ -90,6 +90,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="column is-narrow">
+                    <a class="icon toggle" data-toggle="export" data-hidden="fa-download" data-shown="fa-file-download">
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                <div class="column is-narrow is-hidden" id="export">
+				</div>
             </div>
 
             <div id="error-message" class="notification is-danger is-hidden"></div>

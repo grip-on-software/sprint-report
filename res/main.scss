@@ -1,9 +1,25 @@
-@import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fontawesome";
-@import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fa-brands";
-@import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fa-regular";
-@import "node_modules/@fortawesome/fontawesome-free-webfonts/scss/fa-solid";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "node_modules/@fortawesome/fontawesome-free/scss/regular";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "node_modules/bulma/bulma";
 @import "node_modules/bulma-slider/dist/bulma-slider";
+
+@media print {
+	#navbar, #options {
+		display: none
+	}
+	.table {
+		.project .display-name, .sprint .tags, .feature .icon {
+			display: none
+		}
+	}
+	.chart {
+		.tooltip {
+			display: none
+		}
+	}
+}
 
 body {
     font-family: 'Open Sans', sans-serif;

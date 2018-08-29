@@ -38,7 +38,8 @@
             "csv": "CSV",
             "json": "JSON",
             "html": "HTML",
-            "link": "Link"
+            "link": "Link",
+            "print": "Afdrukken"
         },
         "sprint_meta": {
             "sprint_name": "Sprintnaam",
@@ -94,7 +95,8 @@
             "csv": "CSV",
             "json": "JSON",
             "html": "HTML",
-            "link": "Link"
+            "link": "Link",
+            "print": "Print"
         },
         "sprint_meta": {
             "sprint_name": "Sprint name",

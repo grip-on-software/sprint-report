@@ -14,9 +14,13 @@
 		.project .display-name, .sprint .tags, .feature .icon {
 			display: none
 		}
+		tbody {
+			page-break-inside: avoid
+		}
 	}
 	.chart {
-		.tooltip {
+		transform: scale(.7) translate(-25%);
+		.details {
 			display: none
 		}
 	}

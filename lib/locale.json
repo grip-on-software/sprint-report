@@ -25,11 +25,19 @@
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
             "error-message": "Kon gegevens niet laden: %s",
-            "no-value": "N/A"
+            "no-value": "N/A",
+            "export-link-copy": "Kopieer de link naar het klembord met behulp van #{key}",
+            "export-link-tooltip": "Link naar het klembord gekopieerd"
         },
         "formats": {
             "table": "Tabel",
             "line_chart": "Lijngrafiek"
+        },
+        "exports": {
+            "csv": "CSV",
+            "json": "JSON",
+            "html": "HTML",
+            "link": "Link"
         },
         "sprint_meta": {
             "sprint_name": "Sprintnaam",
@@ -72,11 +80,19 @@
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
             "error-message": "Could not load data: %s",
-            "no-value": "n/a"
+            "no-value": "n/a",
+            "export-link-copy": "Press #{key} to copy the link to the clipboard",
+            "export-link-tooltip": "Copied link to the clipboard"
         },
         "formats": {
             "table": "Table",
             "line_chart": "Line chart"
+        },
+        "exports": {
+            "csv": "CSV",
+            "json": "JSON",
+            "html": "HTML",
+            "link": "Link"
         },
         "sprint_meta": {
             "sprint_name": "Sprint name",

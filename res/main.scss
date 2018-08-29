@@ -4,6 +4,7 @@
 @import "node_modules/@fortawesome/fontawesome-free/scss/solid";
 @import "node_modules/bulma/bulma";
 @import "node_modules/bulma-slider/dist/bulma-slider";
+@import "node_modules/bulma-tooltip/dist/css/bulma-tooltip";
 
 @media print {
 	#navbar, #options {
@@ -111,15 +112,15 @@ svg.chart {
     stroke-width: 1px;
 }
 
-.focus .tooltip tspan {
+.focus .details tspan {
     fill: #F1F3F3;
     font-size: .8em;
 }
 
-.focus .tooltip tspan.highlight {
+.focus .details tspan.highlight {
 	font-weight: bold;
 }
 
-.focus .tooltip rect {
+.focus .details rect {
     border-radius: 20px;
 }

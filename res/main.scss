@@ -128,3 +128,12 @@ svg.chart {
 .focus .details rect {
     border-radius: 20px;
 }
+
+.tooltip {
+	&::before, &::after {
+		transition: opacity .5s ease;
+		opacity: 0;
+      	content: '';
+		position: absolute;
+	}
+}

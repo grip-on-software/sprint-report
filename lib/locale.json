@@ -31,7 +31,8 @@
         },
         "formats": {
             "table": "Tabel",
-            "line_chart": "Lijngrafiek"
+            "line_chart": "Lijngrafiek",
+            "bar_chart": "Staafgrafiek"
         },
         "exports": {
             "csv": "CSV",
@@ -86,7 +87,8 @@
         },
         "formats": {
             "table": "Table",
-            "line_chart": "Line chart"
+            "line_chart": "Line chart",
+            "bar_chart": "Bar chart"
         },
         "exports": {
             "csv": "CSV",

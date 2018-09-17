@@ -20,10 +20,13 @@
             "format-header": "Formaat",
             "sprints-header": "Sprints",
             "sprints-closed-only": "Alleen afgesloten",
+            "sprints-closed-only-tooltip": "Lopende sprints weglaten",
             "sprints-show-old": "Oude sprints",
+            "sprints-show-old-tooltip": "Alle sprints tonen in aanvulling op de meest recente",
             "sprint-title": "Sprint bekijken (als je toegang hebt)",
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
+            "source-title": "Naar de bron van deze eigenschap voor de meest recente sprint gaan",
             "error-message": "Kon gegevens niet laden: %s",
             "no-value": "N/A",
             "export-link-copy": "Kopieer de link naar het klembord met behulp van #{key}",
@@ -40,6 +43,13 @@
             "html": "HTML",
             "link": "Link",
             "print": "Afdrukken"
+        },
+        "export_tooltip": {
+            "csv": "Tabelformaat downloaden",
+            "json": "Objectstructuur bekijken",
+            "html": "Archiefbestand downloaden",
+            "link": "Link naar het klembord kopiëren",
+            "print": "Afdrukformulier openen"
         },
         "sprint_meta": {
             "sprint_name": "Sprintnaam",
@@ -77,10 +87,13 @@
             "format-header": "Format",
             "sprints-header": "Sprints",
             "sprints-closed-only": "Closed only",
+            "sprints-closed-only-tooltip": "Exclude currently ongoing sprints",
             "sprints-show-old": "Old sprints",
+            "sprints-show-old-tooltip": "Show all sprints in addition to the most recent ones",
             "sprint-title": "View sprint (if you have access)",
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
+            "source-title": "Visit the source of this feature for the most recent sprint",
             "error-message": "Could not load data: %s",
             "no-value": "n/a",
             "export-link-copy": "Press #{key} to copy the link to the clipboard",
@@ -97,6 +110,13 @@
             "html": "HTML",
             "link": "Link",
             "print": "Print"
+        },
+        "export_tooltip": {
+            "csv": "Download table format",
+            "json": "View object structure",
+            "html": "Download archive file",
+            "link": "Copy link to clipboard",
+            "print": "Open print form"
         },
         "sprint_meta": {
             "sprint_name": "Sprint name",

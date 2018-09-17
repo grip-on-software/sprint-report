@@ -1,6 +1,7 @@
 const fs = require('fs'),
       mix = require('laravel-mix'),
-      HtmlWebpackPlugin = require('html-webpack-plugin');
+      HtmlWebpackPlugin = require('html-webpack-plugin'),
+      WebpackAssetsManifest = require('webpack-assets-manifest');
 
 let config = process.env.SPRINT_REPORT_CONFIGURATION;
 if (config === undefined || !fs.existsSync(config)) {
@@ -52,6 +53,8 @@ mix.setPublicPath('public/')
             new HtmlWebpackPlugin({
                 template: 'template/index.mustache',
                 inject: 'body'
+            }),
+            new WebpackAssetsManifest({
             })
         ],
         resolve: {

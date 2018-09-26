@@ -27,6 +27,8 @@
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
             "source-title": "Naar de bron van deze eigenschap voor de meest recente sprint gaan",
+            "details-expand-title": "Details tonen",
+            "details-collapse-title": "Details verbergen",
             "error-message": "Kon gegevens niet laden: %s",
             "no-value": "N/A",
             "export-link-copy": "Kopieer de link naar het klembord met behulp van #{key}",
@@ -56,6 +58,10 @@
             "sprint_num": "Sprintnummer",
             "start_date": "Begindatum",
             "close_date": "Sluitdatum"
+        },
+        "details": {
+            "key": "Issue-key",
+            "story_points": "SP"
         },
         "project-filter": {
             "recent": "Recente projecten",
@@ -94,6 +100,8 @@
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
             "source-title": "Visit the source of this feature for the most recent sprint",
+            "details-expand-title": "Show details",
+            "details-collapse-title": "Hide details",
             "error-message": "Could not load data: %s",
             "no-value": "n/a",
             "export-link-copy": "Press #{key} to copy the link to the clipboard",
@@ -123,6 +131,10 @@
             "sprint_num": "Sprint number",
             "start_date": "Starting date",
             "close_date": "Closing date"
+        },
+        "details": {
+            "key": "Issue key",
+            "story_points": "SP"
         },
         "project-filter": {
             "recent": "Recent projects",

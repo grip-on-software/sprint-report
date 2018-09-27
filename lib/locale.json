@@ -1,6 +1,10 @@
 {
     "nl": {
         "language": "Nederlands",
+        "decimal": ",",
+        "thousands": ".",
+        "grouping": [3],
+        "currency": ["€\u00a0", ""],
         "messages": {
             "title": "Sprintrapportage",
             "config-hide": "Configuratiepaneel verbergen",
@@ -74,6 +78,10 @@
     },
     "en": {
         "language": "English",
+        "decimal": ".",
+        "thousands": ",",
+        "grouping": [3],
+        "currency": ["$", ""],
         "messages": {
             "title": "Sprint report",
             "config-hide": "Hide configuration panel",

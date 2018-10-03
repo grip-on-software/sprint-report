@@ -90,6 +90,15 @@ body {
     padding: 1rem 1.5rem;
 }
 
+#sources {
+	overflow-x: auto;
+	width: 100%;
+}
+
+#sources td.age {
+	white-space: nowrap;
+}
+
 article.section {
     padding: 2rem 1.5rem;
 	overflow-x: auto;

@@ -6,17 +6,7 @@
 @import "node_modules/bulma-slider/dist/css/bulma-slider";
 @import "node_modules/bulma-tooltip/dist/css/bulma-tooltip";
 
-#print-title {
-    display: none
-}
-
 @media print {
-    #normal-title {
-        display: none
-    }
-    #print-title {
-        display: inline
-    }
 	#navbar, #options {
 		display: none
 	}

@@ -7,6 +7,7 @@
         "currency": ["€\u00a0", ""],
         "messages": {
             "title": "Sprintrapportage",
+            "print-title": "Sprintrapportage voor %s",
             "config-hide": "Configuratiepaneel verbergen",
             "config-show": "Configuratiepaneel tonen",
             "export-hide": "Exportopties verbergen",
@@ -48,14 +49,16 @@
             "json": "JSON",
             "html": "HTML",
             "link": "Link",
-            "print": "Afdrukken"
+            "print": "Afdrukken",
+            "pdf": "PDF"
         },
         "export_tooltip": {
             "csv": "Tabelformaat downloaden",
             "json": "Objectstructuur bekijken",
             "html": "Archiefbestand downloaden",
             "link": "Link naar het klembord kopiëren",
-            "print": "Afdrukformulier openen"
+            "print": "Afdrukformulier openen",
+            "pdf": "PDF-versie bekijken"
         },
         "sprint_meta": {
             "sprint_name": "Sprintnaam",
@@ -84,6 +87,7 @@
         "currency": ["$", ""],
         "messages": {
             "title": "Sprint report",
+            "print-title": "Sprint report for %s",
             "config-hide": "Hide configuration panel",
             "config-show": "Show configuration panel",
             "export-hide": "Hide export options",
@@ -125,14 +129,16 @@
             "json": "JSON",
             "html": "HTML",
             "link": "Link",
-            "print": "Print"
+            "print": "Print",
+            "pdf": "PDF"
         },
         "export_tooltip": {
             "csv": "Download table format",
             "json": "View object structure",
             "html": "Download archive file",
             "link": "Copy link to clipboard",
-            "print": "Open print form"
+            "print": "Open print form",
+            "pdf": "View PDF version"
         },
         "sprint_meta": {
             "sprint_name": "Sprint name",

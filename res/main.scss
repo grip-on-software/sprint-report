@@ -105,6 +105,15 @@ article.section {
 	width: 100%;
 }
 
+#container {
+    position: relative;
+}
+#loading-spinner.is-overlay {
+    position: absolute;
+    top: 1.5rem;
+    opacity: 0.8;
+}
+
 .table .icon {
     margin-left: .25rem;
 }

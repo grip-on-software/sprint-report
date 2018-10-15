@@ -45,7 +45,8 @@
         "formats": {
             "table": "Tabel",
             "line_chart": "Lijngrafiek",
-            "bar_chart": "Staafgrafiek"
+            "bar_chart": "Staafgrafiek",
+            "scatter_plot": "Spreidingsdiagram"
         },
         "exports": {
             "csv": "CSV",
@@ -128,7 +129,8 @@
         "formats": {
             "table": "Table",
             "line_chart": "Line chart",
-            "bar_chart": "Bar chart"
+            "bar_chart": "Bar chart",
+            "scatter_plot": "Scatter plot"
         },
         "exports": {
             "csv": "CSV",

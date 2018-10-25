@@ -106,10 +106,10 @@ article.section {
 	width: 100%;
 }
 
-#container {
+#container, #sources {
     position: relative;
 }
-#loading-spinner.is-overlay {
+.spinner.is-overlay {
     position: absolute;
     top: 1.5rem;
     opacity: 0.8;

@@ -108,11 +108,16 @@ article.section {
 
 #container, #sources {
     position: relative;
-}
-.spinner.is-overlay {
-    position: absolute;
-    top: 1.5rem;
-    opacity: 0.8;
+    .is-loaded {
+        position: relative;
+        z-index: 99;
+    }
+    .spinner.is-overlay {
+        position: absolute;
+        top: 1.5rem;
+        opacity: 0.8;
+        z-index: 0;
+    }
 }
 
 .table .icon {

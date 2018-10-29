@@ -13,4 +13,5 @@ public/manifest.json
 public/mix-manifest.json
 public/hot
 public/main.css
-public/worker.js
+public/*.js
+public/*.js.map

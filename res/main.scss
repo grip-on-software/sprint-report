@@ -128,29 +128,38 @@ svg.chart {
 	overflow: visible;
 }
 
-.focus circle {
-    fill: #F1F3F3;
-    stroke: rgb(0, 67, 125);
-    stroke-width: 2px;
-    fill-opacity: .5;
-}
+.focus {
+    circle {
+        fill: #F1F3F3;
+        stroke: rgb(0, 67, 125);
+        stroke-width: 2px;
+        fill-opacity: .5;
+    }
 
-.focus line {
-    stroke: #555;
-    stroke-width: 1px;
-}
+    line {
+        stroke: #555;
+        stroke-width: 1px;
+    }
 
-.focus .details tspan {
-    fill: #F1F3F3;
-    font-size: .8em;
-}
+    &.fixed .details tspan.has-source {
+        fill: $info;
+    }
+    .details {
+        path.icon {
+            fill: $info;
+        }
+        tspan {
+            fill: #F1F3F3;
+            font-size: .8em;
+            &.highlight {
+	            font-weight: bold;
+            }
+        }
 
-.focus .details tspan.highlight {
-	font-weight: bold;
-}
-
-.focus .details rect {
-    border-radius: 20px;
+        rect {
+            border-radius: 20px;
+        }
+    }
 }
 
 .tooltip {

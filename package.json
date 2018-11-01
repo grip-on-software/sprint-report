@@ -11,6 +11,7 @@
   "devDependencies": {
     "babel-loader": "^7.1.5",
     "babel-plugin-istanbul": "^5.0.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.24.4",
     "browser-sync-webpack-plugin": "^2.2.2",
@@ -22,6 +23,8 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
+    "@fortawesome/free-brands-svg-icons": "^5.4.2",
+    "@fortawesome/free-solid-svg-icons": "^5.4.2",
     "@gros/visualization-ui": "^0.4.7",
     "axios": "^0.18.0",
     "bulma": "^0.7.1",

@@ -125,7 +125,15 @@ article.section {
 }
 
 svg.chart {
-	overflow: visible;
+    overflow: visible;
+}
+
+g.clusters text {
+    fill: black;
+    stroke: white;
+    stroke-width: 0.01em;
+    text-anchor: middle;
+    filter: drop-shadow(0 0 2px #444444);
 }
 
 .focus {
@@ -152,7 +160,7 @@ svg.chart {
             fill: #F1F3F3;
             font-size: .8em;
             &.highlight {
-	            font-weight: bold;
+                font-weight: bold;
             }
         }
 

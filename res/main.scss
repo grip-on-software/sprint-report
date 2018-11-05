@@ -72,6 +72,9 @@ body {
     margin-right: .25rem;
 }
 
+.tabs.is-toggle li:only-child a {
+    border-radius: 4px 4px 4px 4px;
+}
 .tabs .tag {
 	background-color: #ffffff;
 	color: #000000;

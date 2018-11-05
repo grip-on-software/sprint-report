@@ -146,12 +146,17 @@ svg.chart {
     overflow: visible;
 }
 
-g.clusters text {
-    fill: black;
-    stroke: white;
-    font-weight: bold;
-    text-anchor: middle;
-    filter: drop-shadow(0 0 2px #444444);
+g.clusters {
+    circle {
+        fill-opacity: 0.5;
+    }
+    text {
+        fill: black;
+        stroke: white;
+        font-weight: bold;
+        text-anchor: middle;
+        filter: drop-shadow(0 0 2px #444444);
+    }
 }
 
 .focus {

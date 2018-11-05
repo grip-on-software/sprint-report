@@ -49,6 +49,21 @@ body {
     padding-right: .5em;
 }
 
+#features {
+    margin: .75rem 0 0 .5rem;
+    .column {
+        padding: .25rem;
+    }
+    .category {
+        flex: none;
+        width: 10%;
+        white-space: nowrap;
+        .name {
+            margin-left: .25rem;
+        }
+    }
+}
+
 #config .checkbox {
     margin: .5rem 0;
 }

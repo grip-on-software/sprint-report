@@ -61,12 +61,19 @@ body {
         padding: .25rem;
     }
     .category {
+        &:hover .icon {
+            color: $link;
+        }
+        cursor: pointer;
         flex: none;
         width: 10%;
         white-space: nowrap;
         .name {
             margin-left: .25rem;
         }
+    }
+    .tabs {
+        overflow: hidden;
     }
 }
 

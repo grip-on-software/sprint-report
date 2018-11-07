@@ -38,6 +38,12 @@ body {
 
 #header h1 {
     padding: 1.5rem;
+    white-space: nowrap;
+    span.projects {
+        text-indent: 100%;
+        overflow: hidden;
+        color: transparent;
+    }
 }
 
 .tabs ul {

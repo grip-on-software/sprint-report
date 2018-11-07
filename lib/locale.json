@@ -7,7 +7,7 @@
         "currency": ["€\u00a0", ""],
         "messages": {
             "title": "Sprintrapportage",
-            "title-projects": "Sprintrapportage voor %s",
+            "title-projects": "voor %s",
             "config-hide": "Configuratiepaneel verbergen",
             "config-show": "Configuratiepaneel tonen",
             "export-hide": "Exportopties verbergen",
@@ -91,7 +91,7 @@
         "currency": ["$", ""],
         "messages": {
             "title": "Sprint report",
-            "title-projects": "Sprint report for %s",
+            "title-projects": "for %s",
             "config-hide": "Hide configuration panel",
             "config-show": "Show configuration panel",
             "export-hide": "Hide export options",

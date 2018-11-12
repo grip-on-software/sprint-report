@@ -151,8 +151,16 @@ article.section {
     }
 }
 
-.table .icon {
-    margin-left: .25rem;
+.table {
+    .icon {
+        margin-left: .25rem;
+    }
+    .details {
+        font-size: .925rem;
+        th {
+            white-space: nowrap;
+        }
+    }
 }
 
 svg.chart {

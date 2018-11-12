@@ -73,6 +73,7 @@
         "details": {
             "domain_name": "Domeinnaam",
             "avg_value": "Gemiddelde",
+            "end_value": "Eindaantal",
             "max_value": "Maximum",
             "min_value": "Minimum",
             "sum_value": "Aantal",
@@ -162,6 +163,7 @@
         "details": {
             "domain_name": "Domain name",
             "avg_value": "Average",
+            "end_value": "End amount",
             "max_value": "Maximum",
             "min_value": "Minimum",
             "sum_value": "Amount",

@@ -71,6 +71,11 @@
             "close_date": "Sluitdatum"
         },
         "details": {
+            "domain_name": "Domeinnaam",
+            "avg_value": "Gemiddelde",
+            "max_value": "Maximum",
+            "min_value": "Minimum",
+            "sum_value": "Aantal",
             "key": "Issue-key",
             "story_points": "SP"
         },
@@ -155,6 +160,11 @@
             "close_date": "Closing date"
         },
         "details": {
+            "domain_name": "Domain name",
+            "avg_value": "Average",
+            "max_value": "Maximum",
+            "min_value": "Minimum",
+            "sum_value": "Amount",
             "key": "Issue key",
             "story_points": "SP"
         },

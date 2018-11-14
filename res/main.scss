@@ -176,9 +176,10 @@ svg.scatterplot {
     .axis.x2, .axis.y2 {
         line {
             stroke: lightgrey;
+            stroke-width: 0.5;
             stroke-opacity: 0.7;
         }
-        path, g:first-of-type {
+        path {
             stroke-width: 0;
         }
     }

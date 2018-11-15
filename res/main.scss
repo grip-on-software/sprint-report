@@ -137,6 +137,10 @@ article.section {
 	width: 100%;
 }
 
+.section.is-resizing {
+    overflow: visible;
+}
+
 #container, #sources {
     position: relative;
     .is-loaded {
@@ -165,9 +169,7 @@ article.section {
 
 svg.chart {
     overflow: visible;
-}
-
-svg.chart {
+    margin: 0 auto 0 auto;
     .axis.x0, .axis.y0 {
         line {
             stroke-width: 0.5;

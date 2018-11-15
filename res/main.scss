@@ -167,9 +167,13 @@ svg.chart {
     overflow: visible;
 }
 
-svg.chart .axis.y0 line {
-    stroke-width: 0.5;
-    stroke-opacity: 0.7;
+svg.chart {
+    .axis.x0, .axis.y0 {
+        line {
+            stroke-width: 0.5;
+            stroke-opacity: 0.7;
+        }
+    }
 }
 
 svg.scatterplot {

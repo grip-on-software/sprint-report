@@ -239,11 +239,16 @@ g.clusters {
 }
 
 .tooltip {
-	&::before, &::after {
-		transition: opacity .5s ease;
-		opacity: 0;
-      	content: '';
-		position: absolute;
+    &::before, &::after {
+        transition: opacity .5s ease;
+        opacity: 0;
+        content: '';
+        position: absolute;
         font-weight: normal;
-	}
+    }
+    &.is-tooltip-center {
+        &::before {
+            text-align: center;
+        }
+    }
 }

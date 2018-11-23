@@ -224,9 +224,11 @@ g.clusters {
         path.icon {
             fill: $info;
         }
+        text {
+            font-size: .8em;
+        }
         tspan {
             fill: #F1F3F3;
-            font-size: .8em;
             &.highlight {
                 font-weight: bold;
             }

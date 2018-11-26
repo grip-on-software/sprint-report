@@ -60,14 +60,6 @@ pipeline {
             }
         }
         stage('Collect') {
-            when {
-                anyOf {
-                    branch 'master'
-                    expression {
-                        currentBuild.rawBuild.getCause(hudson.triggers.TimerTrigger$TimerTriggerCause) == null
-                    }
-                }
-            }
             agent {
                 docker {
                     image '$DOCKER_REGISTRY/gros-data-analysis-dashboard'
@@ -81,14 +73,6 @@ pipeline {
             }
         }
         stage('Visualize') {
-            when {
-                anyOf {
-                    branch 'master'
-                    expression {
-                        currentBuild.rawBuild.getCause(hudson.triggers.TimerTrigger$TimerTriggerCause) == null
-                    }
-                }
-            }
             agent {
                 docker {
                     image '$DOCKER_REGISTRY/gros-sprint-report:$IMAGE_TAG'
@@ -104,7 +88,7 @@ pipeline {
                     sh 'ln -s /usr/src/app/node_modules .'
                     sh 'npm run production -- --env.mixfile=$PWD/webpack.mix.js'
                 }
-                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'public', reportFiles: 'index.html', reportName: 'Visualization', reportTitles: ''])
+                publishHTML([allowMissing: true, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'public', reportFiles: 'index.html', reportName: 'Visualization', reportTitles: ''])
             }
         }
         stage('Status') {

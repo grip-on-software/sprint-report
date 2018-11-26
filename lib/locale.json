@@ -83,12 +83,12 @@
         "project-filter": {
             "recent": "Recente projecten",
             "support": "Supportteams",
-            "combined": "Teamprojecten"
+            "team": "Teamprojecten"
         },
         "project-filter-title": {
             "recent": "Alleen recente projecten tonen",
             "support": "Ook projecten van supportteams tonen",
-            "combined": "Alleen teams en projecten van afzonderlijke teams tonen"
+            "team": "Alleen teams en projecten van afzonderlijke teams tonen"
         }
     },
     "en": {

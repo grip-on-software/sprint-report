@@ -82,11 +82,13 @@
         },
         "project-filter": {
             "recent": "Recente projecten",
-            "support": "Supportteams"
+            "support": "Supportteams",
+            "combined": "Teamprojecten"
         },
         "project-filter-title": {
             "recent": "Alleen recente projecten tonen",
-            "support": "Ook projecten van supportteams tonen"
+            "support": "Ook projecten van supportteams tonen",
+            "combined": "Alleen teams en projecten van afzonderlijke teams tonen"
         }
     },
     "en": {
@@ -172,11 +174,13 @@
         },
         "project-filter": {
             "recent": "Recent projects",
-            "support": "Support teams"
+            "support": "Support teams",
+            "team": "Team projects"
         },
         "project-filter-title": {
             "recent": "Only show recent projects",
-            "support": "Show support team projects as well as main projects"
+            "support": "Show support team projects as well as main projects",
+            "team": "Only show teams and projects worked on by a single team"
         }
     }
 }

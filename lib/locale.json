@@ -79,7 +79,8 @@
             "min_value": "Minimum",
             "sum_value": "Aantal",
             "key": "Issue-key",
-            "story_points": "SP"
+            "story_points": "SP",
+            "num": "Aantal"
         },
         "project-filter": {
             "recent": "Recente projecten",
@@ -172,7 +173,8 @@
             "min_value": "Minimum",
             "sum_value": "Amount",
             "key": "Issue key",
-            "story_points": "SP"
+            "story_points": "SP",
+            "num": "Amount"
         },
         "project-filter": {
             "recent": "Recent projects",

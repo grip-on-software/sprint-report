@@ -72,9 +72,6 @@ body {
             margin-left: .25rem;
         }
     }
-    .tabs {
-        overflow: hidden;
-    }
 }
 
 #config .checkbox {
@@ -221,17 +218,17 @@ g.clusters {
         fill: $info;
     }
     .details {
+        path, tspan {
+            fill: #F1F3F3;
+        }
         path.icon {
             fill: $info;
         }
         text {
             font-size: .8em;
         }
-        tspan {
-            fill: #F1F3F3;
-            &.highlight {
-                font-weight: bold;
-            }
+        tspan.highlight {
+            font-weight: bold;
         }
 
         rect {

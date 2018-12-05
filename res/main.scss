@@ -215,7 +215,9 @@ g.clusters {
     }
 
     &.fixed .details tspan.has-source {
-        fill: $info;
+        &, tspan {
+            fill: $info;
+        }
     }
     .details {
         path, tspan {

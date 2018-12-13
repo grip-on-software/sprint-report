@@ -26,7 +26,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.4.2",
     "@fortawesome/free-regular-svg-icons": "^5.5.0",
     "@fortawesome/free-solid-svg-icons": "^5.4.2",
-    "@gros/visualization-ui": "^0.4.7",
+    "@gros/visualization-ui": "^0.5.0",
     "axios": "^0.18.0",
     "bulma": "^0.7.1",
     "bulma-slider": "^2.0.0",
@@ -39,7 +39,7 @@
     "immutable": "^3.8.2",
     "javascript-natural-sort": "^0.7.1",
     "jszip": "^3.1.5",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.11",
     "moment": "^2.22.2",
     "mustache": "^3.0.1",
     "sprintf-js": "^1.1.1"

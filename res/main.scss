@@ -52,10 +52,18 @@ body {
     flex-wrap: wrap;
 }
 
-#project-filter label {
-	display: flex;
-    padding-right: .5em;
+#project-filter, #sprints-filter {
+    label {
+        display: flex;
+        padding-right: .5em;
+    }
 }
+
+#sprints-meta {
+    padding: .75rem 0 .75rem 0;
+    font-size: .7rem;
+}
+
 
 #features {
     margin: .75rem 0 0 .5rem;

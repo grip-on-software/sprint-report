@@ -211,6 +211,21 @@ g.clusters {
     }
 }
 
+svg.sankey {
+    .nodes {
+        rect {
+            cursor: move;
+            fill-opacity: 0.9;
+        }
+    }
+    .links {
+        stroke-opacity: 0.5;
+        path:hover {
+            stroke-opacity: 0.8;
+        }
+    }
+}
+
 .focus {
     circle {
         fill: #F1F3F3;

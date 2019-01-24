@@ -50,6 +50,7 @@
             "target-good": "Better than %s",
             "target-almost": "Between %s and %s",
             "target-bad": "Worse than %s",
+            "sankey-no-details-selected": "Kon geen diagram tonen omdat geen van de attributen voldoende details hebben",
             "error-message": "Kon gegevens niet laden: %s",
             "no-value": "N/A",
             "range-value": "%s \u2014 %s",
@@ -60,7 +61,8 @@
             "table": "Tabel",
             "line_chart": "Lijngrafiek",
             "bar_chart": "Staafgrafiek",
-            "scatter_plot": "Spreidingsdiagram"
+            "scatter_plot": "Spreidingsdiagram",
+            "sankey_chart": "Sankey-stroomdiagram"
         },
         "exports": {
             "csv": "CSV",
@@ -157,6 +159,7 @@
             "target-good": "Beter dan %s",
             "target-almost": "Tussen %s en %s",
             "target-bad": "Slechter dan %s",
+            "sankey-no-details-selected": "Could not display chart because none of the attributes have sufficient details",
             "error-message": "Could not load data: %s",
             "no-value": "n/a",
             "range-value": "%s \u2014 %s",
@@ -167,7 +170,8 @@
             "table": "Table",
             "line_chart": "Line chart",
             "bar_chart": "Bar chart",
-            "scatter_plot": "Scatter plot"
+            "scatter_plot": "Scatter plot",
+            "sankey_chart": "Sankey flowchart"
         },
         "exports": {
             "csv": "CSV",

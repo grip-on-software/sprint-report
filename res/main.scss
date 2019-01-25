@@ -212,6 +212,10 @@ g.clusters {
 }
 
 svg.sankey {
+    .legend rect.sample {
+        fill-opacity: 0.9;
+        stroke-opacity: 0.9;
+    }
     .nodes {
         rect {
             cursor: move;

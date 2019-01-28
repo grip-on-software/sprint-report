@@ -211,6 +211,16 @@ g.clusters {
     }
 }
 
+g.regressions {
+    path {
+        stroke-opacity: 0.8;
+    }
+    text {
+        font-size: 0.75rem;
+        text-anchor: end;
+    }
+}
+
 svg.sankey {
     .legend rect.sample {
         fill-opacity: 0.9;

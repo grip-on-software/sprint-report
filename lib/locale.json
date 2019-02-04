@@ -99,6 +99,14 @@
             "story_points": "SP",
             "num": "Aantal"
         },
+        "axis": {
+            "yx": "Diagonaal"
+        },
+        "regression": {
+            "linear": "Lineair",
+            "exponential": "Exponentieel",
+            "polynomial": "Polynomiaal"
+        },
         "project-filter": {
             "recent": "Recente projecten",
             "support": "Supportteams",
@@ -209,6 +217,14 @@
             "key": "Issue key",
             "story_points": "SP",
             "num": "Amount"
+        },
+        "axis": {
+            "yx": "Diagonal"
+        },
+        "regression": {
+            "linear": "Linear",
+            "exponential": "Exponential",
+            "polynomial": "Polynomial"
         },
         "project-filter": {
             "recent": "Recent projects",

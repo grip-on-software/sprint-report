@@ -55,19 +55,19 @@
                                 <div class="column is-narrow">
                                     <h2 data-message="sprints-header">Sprints</h2>
                                 </div>
-                                <div class="column" id="sprints-count">
-                                    <input type="range" id="num-sprints" class="slider has-output" min="1" step="1">
-                                    <output for="num-sprints"></output>
+                                <div class="column tooltip is-tooltip-left" id="sprints-count">
+                                    <svg id="num-sprints" width="500" height="50">
+                                        <g>
+                                            <g class="axis"></g>
+                                            <g class="brush"></g>
+                                        </g>
+                                    </svg>
                                 </div>
                                 <div class="column is-narrow">
                                     <div id="sprints-filter" class="content is-small">
                                         <label id="sprints-closed" class="checkbox tooltip" data-message-data-tooltip="sprints-closed-only-tooltip">
                                             <input type="checkbox">
                                             <span data-message="sprints-closed-only"></span>
-                                        </label>
-                                        <label id="sprints-old" class="checkbox tooltip" data-message-data-tooltip="sprints-show-old-tooltip">
-                                            <input type="checkbox">
-                                            <span data-message="sprints-show-old"></span>
                                         </label>
                                     </div>
                                 </div>

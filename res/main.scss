@@ -92,37 +92,37 @@ body {
     margin-right: .25rem;
 }
 
-.tabs.is-toggle li:only-child a {
-    border-radius: 4px 4px 4px 4px;
-}
-.tabs .tag {
-	background-color: #ffffff;
-	color: #000000;
-    font-size: .6em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    height: 1.5em;
-    margin-left: 0.5em;
-    margin-right: -0.5em;
-}
-
-.tabs .tag:hover {
-	background-color: #f5f5f5;
-	color: #4a4a4a;
-	cursor: text;
-}
-
 .tabs {
 	overflow: visible;
-}
+    ul {
+        width: 100%;
+    }
 
-.tabs li.is-active a.drag, .tabs li.is-active a.drag:hover {
-	z-index: 3;
-	cursor: grab;
-}
-
-.tabs a.dragging {
-	cursor: grabbing;
+    &.is-toggle li:only-child a {
+        border-radius: 4px 4px 4px 4px;
+    }
+    .tag {
+	    background-color: #ffffff;
+	    color: #000000;
+        font-size: .6em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        height: 1.5em;
+        margin-left: 0.5em;
+        margin-right: -0.5em;
+        &:hover {
+	        background-color: #f5f5f5;
+	        color: #4a4a4a;
+	        cursor: text;
+        }
+    }
+    li.is-active a.drag, .tabs li.is-active a.drag:hover {
+	    z-index: 3;
+	    cursor: grab;
+    }
+    a.dragging {
+	    cursor: grabbing;
+    }
 }
 
 .section.is-small {
@@ -132,10 +132,9 @@ body {
 #sources {
 	overflow-x: auto;
 	width: 100%;
-}
-
-#sources td.age {
-	white-space: nowrap;
+    td.age {
+	    white-space: nowrap;
+    }
 }
 
 article.section {

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "table",
+        "class": "Table",
+        "icon": ["fas", "fa-table"],
+        "features": null
+    },
+    {
+        "name": "line_chart",
+        "class": "LineChart",
+        "icon": ["fas", "fa-chart-line"],
+        "features": null
+    },
+    {
+        "name": "bar_chart",
+        "class": "BarChart",
+        "icon": ["fas", "fa-chart-bar"],
+        "features": null
+    },
+    {
+        "name": "scatter_plot",
+        "class": "ScatterPlot",
+        "icon": ["fas", "fa-braille"],
+        "features": null
+    },
+    {
+        "name": "sankey_chart",
+        "class": "SankeyChart",
+        "icon": ["fas", "fa-wind"],
+        "features": null
+    }
+]

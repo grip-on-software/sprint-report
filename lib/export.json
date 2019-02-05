@@ -1,0 +1,33 @@
+[
+    {
+        "name": "csv",
+        "class": "CSV",
+        "icon": ["fas", "fa-th"]
+    },
+    {
+        "name": "json",
+        "class": "JSONSource",
+        "icon": ["fas", "fa-shapes"]
+    },
+    {
+        "name": "html",
+        "class": "HTML",
+        "icon": ["fas", "fa-code"]
+    },
+    {
+        "name": "link",
+        "class": "Link",
+        "icon": ["fas", "fa-link"]
+    },
+    {
+        "name": "print",
+        "class": "Print",
+        "icon": ["fas", "fa-print"]
+    },
+    {
+        "name": "pdf",
+        "class": "PDF",
+        "icon": ["far", "fa-file-pdf"],
+        "config": "render_url"
+    }
+]

@@ -1,7 +1,7 @@
 {
     "visualization_url": "/",
     "render_url": "",
-
     "jira_url": "",
+    "access_url": "",
     "path": "."
 }

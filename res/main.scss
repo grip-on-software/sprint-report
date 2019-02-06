@@ -67,18 +67,14 @@ body {
 }
 
 
-#project-filter, #sprints-filter {
+#project-filter, #sprints-filter, #sprints-meta {
+    padding: .5rem 0 0 0;
+    font-size: .7rem;
     label {
         display: flex;
         padding-right: .5em;
     }
 }
-
-#sprints-filter, #sprints-meta {
-    padding: .5rem 0 .75rem 0;
-    font-size: .7rem;
-}
-
 
 #features {
     margin: .75rem 0 0 .5rem;

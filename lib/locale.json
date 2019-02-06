@@ -121,12 +121,14 @@
         "project-filter": {
             "recent": "Recente projecten",
             "support": "Supportteams",
-            "team": "Teamprojecten"
+            "team": "Teamprojecten",
+            "accessible": "Eigen projecten"
         },
         "project-filter-title": {
             "recent": "Alleen recente projecten tonen",
             "support": "Ook projecten van supportteams tonen",
-            "team": "Alleen teams en projecten van afzonderlijke teams tonen"
+            "team": "Alleen teams en projecten van afzonderlijke teams tonen",
+            "accessible": "Alleen bereikbare projecten tonen"
         }
     },
     "en": {
@@ -251,12 +253,14 @@
         "project-filter": {
             "recent": "Recent projects",
             "support": "Support teams",
-            "team": "Team projects"
+            "team": "Team projects",
+            "accessible": "Own projects"
         },
         "project-filter-title": {
             "recent": "Only show recent projects",
             "support": "Show support team projects as well as main projects",
-            "team": "Only show teams and projects worked on by a single team"
+            "team": "Only show teams and projects worked on by a single team",
+            "accessible": "Only show projects that are reachable"
         }
     }
 }

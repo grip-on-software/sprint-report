@@ -3,30 +3,30 @@
         "name": "table",
         "class": "Table",
         "icon": ["fas", "fa-table"],
-        "features": null
+        "features": ["all", "details"]
     },
     {
         "name": "line_chart",
         "class": "LineChart",
         "icon": ["fas", "fa-chart-line"],
-        "features": null
+        "features": ["all"]
     },
     {
         "name": "bar_chart",
         "class": "BarChart",
         "icon": ["fas", "fa-chart-bar"],
-        "features": null
+        "features": ["all", "expression"]
     },
     {
         "name": "scatter_plot",
         "class": "ScatterPlot",
         "icon": ["fas", "fa-braille"],
-        "features": null
+        "features": ["all"]
     },
     {
         "name": "sankey_chart",
         "class": "SankeyChart",
         "icon": ["fas", "fa-wind"],
-        "features": null
+        "features": ["details"]
     }
 ]

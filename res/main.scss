@@ -52,6 +52,21 @@ body {
     flex-wrap: wrap;
 }
 
+.features .tabs.is-toggle {
+    li.is-first a {
+        border-bottom-left-radius: $radius;
+        border-top-left-radius: $radius;
+    }
+    li.is-last a {
+        border-bottom-right-radius: $radius;
+        border-top-right-radius: $radius;
+    }
+    li:last-child {
+        margin-left: 0.25rem;
+    }
+}
+
+
 #project-filter, #sprints-filter {
     label {
         display: flex;

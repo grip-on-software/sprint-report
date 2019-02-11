@@ -73,6 +73,7 @@
             "table": "Tabel",
             "line_chart": "Lijngrafiek",
             "bar_chart": "Staafgrafiek",
+            "area_chart": "Vlakgrafiek",
             "scatter_plot": "Spreidingsdiagram",
             "sankey_chart": "Sankey-stroomdiagram"
         },
@@ -218,6 +219,7 @@
             "table": "Table",
             "line_chart": "Line chart",
             "bar_chart": "Bar chart",
+            "area_chart": "Area chart",
             "scatter_plot": "Scatter plot",
             "sankey_chart": "Sankey flowchart"
         },

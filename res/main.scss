@@ -93,6 +93,28 @@ body {
             margin-left: .25rem;
         }
     }
+    .selection .panel-heading {
+        border-bottom-left-radius: $radius;
+        border-bottom-right-radius: $radius;
+    }
+}
+#feature-selection {
+    overflow: visible;
+    .panel:not(:last-child) {
+        margin-bottom: 0;
+        .panel-block:not(.drag):last-child {
+            border-bottom: 0;
+        }
+    }
+    .tabs {
+        li {
+            flex-grow: 1;
+        }
+        a {
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+        }
+    }
 }
 
 #config .checkbox {
@@ -127,12 +149,49 @@ body {
 	        cursor: text;
         }
     }
-    li.is-active a.drag, .tabs li.is-active a.drag:hover {
-	    z-index: 3;
-	    cursor: grab;
+}
+.tabs, .panel {
+    li.is-active a, .panel-block {
+        &.drag, &.drag:hover {
+	        z-index: 3;
+	        cursor: grab;
+        }
+        &.dragging {
+            cursor: grabbing;
+        }
     }
-    a.dragging {
-	    cursor: grabbing;
+}
+.panel-heading .panel-icon {
+    cursor: pointer;
+    vertical-align: baseline;
+    margin-right: .25em;
+}
+.panel-block {
+    position: relative;
+    display: flex;
+    .panel-icon {
+        flex-grow: 0;
+        font-size: .75rem;
+        width: 1.33em;
+        margin-right: .25em;
+        text-align: right;
+        &.is-disabled {
+            cursor: default;
+            color: $grey-light;
+        }
+        &:not(:first-child) {
+            margin-left: .25em;
+        }
+    }
+    .feature {
+        margin-right: .25em;
+        flex-grow: 1;
+    }
+    &.drag {
+        background: $panel-block-hover-background-color;
+        &, + .panel-block {
+            border-top: 1px solid $border;
+        }
     }
 }
 

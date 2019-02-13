@@ -18,6 +18,12 @@
         "features": ["!attributes", "compound"]
     },
     {
+        "name": "area_chart",
+        "class": "AreaChart",
+        "icon": ["fas", "fa-chart-area"],
+        "features": ["!attributes", "compound"]
+    },
+    {
         "name": "scatter_plot",
         "class": "ScatterPlot",
         "icon": ["fas", "fa-braille"],

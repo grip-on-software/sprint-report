@@ -245,6 +245,7 @@ article.section {
 
 svg.chart {
     overflow: visible;
+    clip: auto;
     margin: 0 auto 0 auto;
     .axis.x0, .axis.y0, .axis.yx {
         line {

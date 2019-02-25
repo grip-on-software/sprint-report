@@ -106,6 +106,7 @@
             "close_date": "het moment waarop de sprint is voltooid"
         },
         "feature-selection-tooltip": {
+            "remove": "Attribuut weghalen",
             "visibility-visible": "Attribuut overal laten zien",
             "visibility-team": "Attribuut alleen voor teams laten zien",
             "visibility-project": "Attribuut alleen voor projecten en componenten laten zien",
@@ -252,6 +253,7 @@
             "close_date": "the moment when the sprint is completed"
         },
         "feature-selection-tooltip": {
+            "remove": "Remove attribute",
             "visibility-visible": "Show attribute everywhere",
             "visibility-team": "Show attribute only for teams",
             "visibility-project": "Show attribute only for projects and components",

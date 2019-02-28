@@ -57,7 +57,13 @@
                                 </div>
                                 <div class="column tooltip is-tooltip-left" id="sprints-count">
                                     <svg id="num-sprints" width="500" height="50">
+                                        <defs>
+                                            <pattern id="future-fill" width="16" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                                                <rect height="8" transform="translate(0,0)" fill="#777777" width="8" fill-opacity="0.3"></rect>
+                                            </pattern>
+                                        </defs>
                                         <g>
+                                            <rect class="future" height="48" y="1" fill="url(#future-fill)"></rect>
                                             <g class="axis"></g>
                                             <g class="brush"></g>
                                         </g>

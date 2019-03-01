@@ -27,7 +27,7 @@ mix.setPublicPath('public/')
         ]
     })
     .babelConfig({
-        "plugins": [ "syntax-dynamic-import" ],
+        "plugins": [ "@babel/plugin-syntax-dynamic-import" ],
         "env": {
             "test": {
                 "plugins": [ "istanbul" ]
@@ -35,7 +35,6 @@ mix.setPublicPath('public/')
         }
     })
     .webpackConfig({
-        devtool: 'source-map',
         output: {
             path: path.resolve('public/'),
             publicPath: (configuration.path === "" ? "" : configuration.path + "/")

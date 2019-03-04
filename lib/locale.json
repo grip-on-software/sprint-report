@@ -125,7 +125,7 @@
             "person": "Personen",
             "point": "Storypoints",
             "sprint": "Sprints",
-            "time": "Tijd"
+            "time": "Dagen"
         },
         "details": {
             "domain_name": "Domeinnaam",
@@ -285,7 +285,7 @@
             "person": "People",
             "point": "Story points",
             "sprint": "Sprints",
-            "time": "Time"
+            "time": "Days"
         },
         "details": {
             "domain_name": "Domain name",

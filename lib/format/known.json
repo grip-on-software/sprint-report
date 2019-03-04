@@ -33,6 +33,7 @@
         "name": "sankey_chart",
         "class": "SankeyChart",
         "icon": ["fas", "fa-wind"],
-        "features": ["details"]
+        "features": ["details"],
+        "required": true
     }
 ]

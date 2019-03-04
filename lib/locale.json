@@ -115,6 +115,18 @@
             "up": "Attribuut eerder laten zien",
             "down": "Attribuut later laten zien"
         },
+        "units": {
+            "change": "Veranderingen",
+            "commit": "Commits",
+            "issue": "Problemen",
+            "item": "Items",
+            "line": "Regels",
+            "metric": "Metrieken",
+            "person": "Personen",
+            "point": "Storypoints",
+            "sprint": "Sprints",
+            "time": "Tijd"
+        },
         "details": {
             "domain_name": "Domeinnaam",
             "avg_value": "Gemiddelde",
@@ -262,6 +274,18 @@
             "visibility-hidden": "Hide attribute",
             "up": "Show attribute earlier",
             "down": "Show attribute later"
+        },
+        "units": {
+            "change": "Changes",
+            "commit": "Commits",
+            "issue": "Issues",
+            "item": "Items",
+            "line": "Lines",
+            "metric": "Metrics",
+            "person": "People",
+            "point": "Story points",
+            "sprint": "Sprints",
+            "time": "Time"
         },
         "details": {
             "domain_name": "Domain name",

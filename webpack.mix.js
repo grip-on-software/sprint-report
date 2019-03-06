@@ -1,17 +1,23 @@
-const fs = require('fs'),
+const _ = require('lodash'),
+      fs = require('fs'),
       mix = require('laravel-mix'),
       HtmlWebpackPlugin = require('html-webpack-plugin'),
       WebpackAssetsManifest = require('webpack-assets-manifest');
 
 let config = process.env.SPRINT_REPORT_CONFIGURATION;
-if (config === undefined || !fs.existsSync(config)) {
+if (typeof config === 'undefined' || !fs.existsSync(config)) {
     config = path.resolve(__dirname, 'config.json');
 }
 if (!fs.existsSync(config)) {
     config = path.resolve(__dirname, 'lib/config.json');
 }
 
-const configuration = JSON.parse(fs.readFileSync(config));
+const configuration = _.mapValues(JSON.parse(fs.readFileSync(config)),
+    value => value.replace('$organization',
+        typeof process.env.VISUALIZATION_ORGANIZATION !== 'undefined' ?
+        process.env.VISUALIZATION_ORGANIZATION : ''
+    )
+);
 
 Mix.paths.setRootPath(__dirname);
 mix.setPublicPath('public/')

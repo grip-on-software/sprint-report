@@ -272,8 +272,8 @@
         "sprint_meta": {
             "sprint_name": "Sprint name",
             "sprint_num": "Sprint number",
-            "start_date": "Starting date",
-            "close_date": "Closing date"
+            "start_date": "Start date",
+            "close_date": "Close date"
         },
         "sprint-meta-tooltip": {
             "sprint_name": "the name of the sprint",

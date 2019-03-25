@@ -23,6 +23,14 @@
             </div>
         </div>
 
+        <svg id="patterns" width="0" height="0">
+            <defs>
+                <pattern id="future-fill" width="16" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                    <rect height="8" transform="translate(0,0)" fill="#777777" width="8" fill-opacity="0.3"></rect>
+                </pattern>
+            </defs>
+        </svg>
+
         <div class="container is-hidden" id="options">
             <section class="section is-small">
                 <div class="columns is-multiline">
@@ -58,11 +66,6 @@
                                     </div>
                                     <div class="column tooltip is-tooltip-left" id="sprints-count">
                                         <svg id="num-sprints" width="500" height="50">
-                                            <defs>
-                                                <pattern id="future-fill" width="16" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-                                                    <rect height="8" transform="translate(0,0)" fill="#777777" width="8" fill-opacity="0.3"></rect>
-                                                </pattern>
-                                            </defs>
                                             <g>
                                                 <rect class="future" height="48" y="1" fill="url(#future-fill)"></rect>
                                                 <g class="axis"></g>

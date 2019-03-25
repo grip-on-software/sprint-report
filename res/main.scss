@@ -175,17 +175,22 @@ body {
         width: 1.33em;
         margin-right: .25em;
         text-align: right;
+        color: $grey-dark;
         &.is-disabled {
             cursor: default;
-            color: $grey-light;
+            color: #767676;
         }
         &:not(:first-child) {
             margin-left: .25em;
         }
     }
+    a.panel-icon:not(.is-disabled):hover {
+        color: $link;
+    }
     .feature {
         margin-right: .25em;
         flex-grow: 1;
+        color: #000000;
     }
     &.drag {
         background: $panel-block-hover-background-color;

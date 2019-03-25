@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Sprint report</title>
+    <title data-message="title">Sprint report</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
     <link rel="stylesheet" href="{{ visualization_url }}navbar.css">
@@ -13,153 +13,155 @@
     aria-label="main navigation" id="navbar">
     </nav>
 
-    <div id="header">
-        <div class="container">
-            <h1 id="title" class="title">
-                <span class="report" data-message="title">Sprint report</span>
-                <span class="projects is-unselectable"></span>
-            </h1>
-        </div>
-    </div>
-
-    <div class="container is-hidden" id="options">
-        <section class="section is-small">
-            <div class="columns is-multiline">
-                <div class="column">
-                    <div class="columns">
-                        <div class="column is-narrow">
-                            <a class="icon toggle" data-toggle="config" data-hidden="fa-cog" data-shown="fa-cogs">
-                                <i class="fas fa-cogs"></i>
-                            </a>
-                        </div>
-                        <div class="column" id="config">
-                            <div class="columns">
-                                <div class="column is-narrow">
-                                    <h2>
-                                        <p data-message="projects-header-teams">Teams</p>
-                                        <p data-message="projects-header-projects">Projects</p>
-                                        <p data-message="projects-header-components">Components</p>
-                                    </h2>
-                                </div>
-                                <div class="column">
-                                    <div id="navigation" class="tabs is-toggle">
-                                    </div>
-                                </div>
-                                <div class="column is-narrow">
-                                    <div id="project-filter" class="content is-small">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="columns">
-                                <div class="column is-narrow">
-                                    <h2 data-message="sprints-header">Sprints</h2>
-                                </div>
-                                <div class="column tooltip is-tooltip-left" id="sprints-count">
-                                    <svg id="num-sprints" width="500" height="50">
-                                        <defs>
-                                            <pattern id="future-fill" width="16" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-                                                <rect height="8" transform="translate(0,0)" fill="#777777" width="8" fill-opacity="0.3"></rect>
-                                            </pattern>
-                                        </defs>
-                                        <g>
-                                            <rect class="future" height="48" y="1" fill="url(#future-fill)"></rect>
-                                            <g class="axis"></g>
-                                            <g class="brush"></g>
-                                        </g>
-                                    </svg>
-                                </div>
-                                <div class="column is-narrow">
-                                    <div id="sprints-filter" class="content is-small">
-                                        <label id="sprints-closed" class="checkbox tooltip" data-message-data-tooltip="sprints-closed-only-tooltip">
-                                            <input type="checkbox">
-                                            <span data-message="sprints-closed-only"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="column">
-                                    <div id="sprints-meta" class="tabs is-toggle">
-                                        <ul></ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="columns">
-                                <div class="column" id="features">
-                                </div>
-                                <div class="column is-narrow" id="feature-selection">
-                                    <nav class="panel is-size-7">
-                                        <p class="panel-heading">
-                                            <span class="icon panel-icon"><i class="far fa-minus-square"></i></span>
-                                            <span data-message="features-selection"></span>
-                                        </p>
-                                    </nav>
-                                    <div class="tabs is-toggle is-size-7">
-                                        <ul></ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="columns">
-                                <div class="column is-narrow">
-                                    <h2 data-message="format-header">Format</h2>
-                                </div>
-                                <div class="column">
-                                    <div id="format" class="tabs is-toggle">
-                                        <ul></ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-narrow">
-                    <div class="columns">
-                        <div class="column is-narrow">
-                            <a class="icon toggle" data-toggle="export" data-hidden="fa-download" data-shown="fa-file-download">
-                                <i class="fas fa-download"></i>
-                            </a>
-                        </div>
-                        <div class="column is-narrow is-hidden" id="export">
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-narrow">
-                    <div class="columns">
-                        <div class="column is-narrow">
-                            <a class="icon toggle" data-toggle="sources" data-hidden="fa-calendar" data-shown="fa-calendar-alt">
-                                <i class="fas fa-calendar"></i>
-                            </a>
-                        </div>
-                        <div class="column is-narrow is-hidden" id="sources">
-                            <table class="table is-bordered">
-                                <thead>
-                                    <tr>
-                                        <th data-message="sources-header">Source age</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                </tbody>
-                            </table>
-                            <div class="spinner is-overlay"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="error-message" class="notification is-danger is-hidden"></div>
-        </section>
-    </div>
-
-    <div id="container">
-        <div id="content">
+    <main role="main">
+        <div id="header">
             <div class="container">
-                <article class="section" id="format-content">
-                </article>
+                <h1 id="title" class="title">
+                    <span class="report" data-message="title">Sprint report</span>
+                    <span class="projects is-unselectable"></span>
+                </h1>
             </div>
         </div>
-        <div class="spinner is-overlay"></div>
-    </div>
+
+        <div class="container is-hidden" id="options">
+            <section class="section is-small">
+                <div class="columns is-multiline">
+                    <div class="column">
+                        <div class="columns">
+                            <div class="column is-narrow">
+                                <a class="icon toggle" data-toggle="config" data-hidden="fa-cog" data-shown="fa-cogs">
+                                    <i class="fas fa-cogs"></i>
+                                </a>
+                            </div>
+                            <div class="column" id="config">
+                                <div class="columns">
+                                    <div class="column is-narrow">
+                                        <h2>
+                                            <p data-message="projects-header-teams">Teams</p>
+                                            <p data-message="projects-header-projects">Projects</p>
+                                            <p data-message="projects-header-components">Components</p>
+                                        </h2>
+                                    </div>
+                                    <div class="column">
+                                        <div id="navigation" class="tabs is-toggle">
+                                        </div>
+                                    </div>
+                                    <div class="column is-narrow">
+                                        <div id="project-filter" class="content is-small">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="columns">
+                                    <div class="column is-narrow">
+                                        <h2 data-message="sprints-header">Sprints</h2>
+                                    </div>
+                                    <div class="column tooltip is-tooltip-left" id="sprints-count">
+                                        <svg id="num-sprints" width="500" height="50">
+                                            <defs>
+                                                <pattern id="future-fill" width="16" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+                                                    <rect height="8" transform="translate(0,0)" fill="#777777" width="8" fill-opacity="0.3"></rect>
+                                                </pattern>
+                                            </defs>
+                                            <g>
+                                                <rect class="future" height="48" y="1" fill="url(#future-fill)"></rect>
+                                                <g class="axis"></g>
+                                                <g class="brush"></g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="column is-narrow">
+                                        <div id="sprints-filter" class="content is-small">
+                                            <label id="sprints-closed" class="checkbox tooltip" data-message-data-tooltip="sprints-closed-only-tooltip">
+                                                <input type="checkbox">
+                                                <span data-message="sprints-closed-only"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div id="sprints-meta" class="tabs is-toggle">
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="columns">
+                                    <div class="column" id="features">
+                                    </div>
+                                    <div class="column is-narrow" id="feature-selection">
+                                        <nav class="panel is-size-7">
+                                            <p class="panel-heading">
+                                                <span class="icon panel-icon"><i class="far fa-minus-square"></i></span>
+                                                <span data-message="features-selection"></span>
+                                            </p>
+                                        </nav>
+                                        <div class="tabs is-toggle is-size-7">
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="columns">
+                                    <div class="column is-narrow">
+                                        <h2 data-message="format-header">Format</h2>
+                                    </div>
+                                    <div class="column">
+                                        <div id="format" class="tabs is-toggle">
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="columns">
+                            <div class="column is-narrow">
+                                <a class="icon toggle" data-toggle="export" data-hidden="fa-download" data-shown="fa-file-download">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                            </div>
+                            <div class="column is-narrow is-hidden" id="export">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div class="columns">
+                            <div class="column is-narrow">
+                                <a class="icon toggle" data-toggle="sources" data-hidden="fa-calendar" data-shown="fa-calendar-alt">
+                                    <i class="fas fa-calendar"></i>
+                                </a>
+                            </div>
+                            <div class="column is-narrow is-hidden" id="sources">
+                                <table class="table is-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th data-message="sources-header">Source age</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                                <div class="spinner is-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="error-message" class="notification is-danger is-hidden"></div>
+            </section>
+        </div>
+
+        <div id="container">
+            <div id="content">
+                <div class="container">
+                    <article class="section" id="format-content">
+                    </article>
+                </div>
+            </div>
+            <div class="spinner is-overlay"></div>
+        </div>
+    </main>
 
     <script type="text/javascript" src="{{ visualization_url }}manifest.js"></script>
     <script type="text/javascript" src="{{ visualization_url }}vendor.js"></script>

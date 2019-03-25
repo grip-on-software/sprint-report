@@ -56,9 +56,12 @@
             "sprint-title": "Sprint bekijken (als je toegang hebt)",
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
-            "source-title": "Naar de bron van deze eigenschap voor de meest recente sprint gaan",
+            "source-label": "Naar de bron van de attribuut %s voor de meest recente sprint gaan",
+            "source-tooltip": "Naar de bron van de attribuut gaan",
             "details-expand-title": "Details tonen",
             "details-collapse-title": "Details verbergen",
+            "details-sort-ascending": "Op oplopende waarde van %s sorteren",
+            "details-sort-descending": "Op aflopende waarde van %s sorteren",
             "target-perfect": "Perfect",
             "target-good": "Beter dan %s",
             "target-almost": "Tussen %s en %s",
@@ -113,6 +116,15 @@
             "visibility-project": "Attribuut alleen voor projecten en componenten laten zien",
             "visibility-hidden": "Attribuut verbergen",
             "up": "Attribuut eerder laten zien",
+            "down": "Attribuut later laten zien"
+        },
+        "feature-selection-label": {
+            "remove": "Attribuut %s weghalen",
+            "visibility-visible": "Attribuut %s overal laten zien",
+            "visibility-team": "Attribuut %s alleen voor teams laten zien",
+            "visibility-project": "Attribuut %s alleen voor projecten en componenten laten zien",
+            "visibility-hidden": "Attribuut %s verbergen",
+            "up": "Attribuut %s eerder laten zien",
             "down": "Attribuut later laten zien"
         },
         "units": {
@@ -216,9 +228,12 @@
             "sprint-title": "View sprint (if you have access)",
             "sprint-number": "#%s",
             "date-title": "%s (%s)",
-            "source-title": "Visit the source of this attribute for the most recent sprint",
+            "source-label": "Visit the source of the attribute %s for the most recent sprint",
+            "source-tooltip": "Visit the source of the attribute",
             "details-expand-title": "Show details",
             "details-collapse-title": "Hide details",
+            "details-sort-ascending": "Sort on ascending value of %s",
+            "details-sort-descending": "Sort on descending value of %s",
             "target-perfect": "Perfect",
             "target-good": "Better than %s",
             "target-almost": "Between %s and %s",
@@ -274,6 +289,15 @@
             "visibility-hidden": "Hide attribute",
             "up": "Show attribute earlier",
             "down": "Show attribute later"
+        },
+        "feature-selection-label": {
+            "remove": "Remove attribute %s",
+            "visibility-visible": "Show attribute %s everywhere",
+            "visibility-team": "Show attribute %s only for teams",
+            "visibility-project": "Show attribute %s only for projects and components",
+            "visibility-hidden": "Hide attribute %s",
+            "up": "Show attribute %s earlier",
+            "down": "Show attribute %s later"
         },
         "units": {
             "change": "Changes",

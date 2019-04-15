@@ -74,7 +74,6 @@
             "target-good": "Beter dan %s",
             "target-almost": "Tussen %s en %s",
             "target-bad": "Slechter dan %s",
-            "predictor-error": "sprints",
             "sankey-no-details-selected": "Kon geen diagram tonen omdat geen van de attributen voldoende details hebben",
             "error-message": "Kon gegevens niet laden: %s",
             "no-value": "N/A",
@@ -147,6 +146,12 @@
             "point": "Storypoints",
             "sprint": "Sprints",
             "time": "Dagen"
+        },
+        "predictor-error": {
+            "points": "punten",
+            "sprint_num": "sprints",
+            "start_date": "dagen",
+            "close_date": "dagen"
         },
         "details": {
             "domain_name": "Domeinnaam",
@@ -255,7 +260,6 @@
             "target-good": "Better than %s",
             "target-almost": "Between %s and %s",
             "target-bad": "Worse than %s",
-            "predictor-error": "sprints",
             "sankey-no-details-selected": "Could not display chart because none of the attributes have sufficient details",
             "error-message": "Could not load data: %s",
             "no-value": "n/a",
@@ -328,6 +332,12 @@
             "point": "Story points",
             "sprint": "Sprints",
             "time": "Days"
+        },
+        "predictor-error": {
+            "points": "points",
+            "sprint_num": "sprints",
+            "start_date": "days",
+            "close_date": "days"
         },
         "details": {
             "domain_name": "Domain name",

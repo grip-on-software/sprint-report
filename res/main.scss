@@ -68,11 +68,19 @@ body {
 
 
 #project-filter, #sprints-meta {
-    padding: .5rem 0 0 0;
-    font-size: .7rem;
-    label {
+    &, .tabs {
+        font-size: .7rem;
+    }
+    p, label {
         display: flex;
         padding-right: .5em;
+    }
+    p {
+        font-size: .75rem;
+        margin: 0 0 .5rem 0;
+    }
+    .checkbox {
+        margin: .25rem 0 0 0;
     }
 }
 

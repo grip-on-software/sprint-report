@@ -91,6 +91,14 @@
             "scatter_plot": "Spreidingsdiagram",
             "sankey_chart": "Sankey-stroomdiagram"
         },
+        "format-tooltip": {
+            "table": "De rapportage vormgeven als een tabel met meest recent sprints vooraan. Sommige attributen kunnen details aanbieden.",
+            "line_chart": "De rapportage vormgeven als diagrammen met waardes verbonden via lijnen. Sommige attributen kunnen voorspellingen aanbieden.",
+            "bar_chart": "De rapportage vormgeven als diagrammen met balken. Sommige attributen kunnen hun componenten aangeven.",
+            "area_chart": "De rapportage vormgeven als diagrammen met lijnen op elkaar gestapeld.",
+            "scatter_plot": "De rapportage vormgeven als een grafiek waarin de eerste twee geselecteerde attributen de locatie van elke sprint bepalen.",
+            "sankey_chart": "De rapportage vormgeven als grafieken met volumes die tussen sprints bewegen."
+        },
         "exports": {
             "csv": "CSV",
             "json": "JSON",
@@ -278,6 +286,14 @@
             "area_chart": "Area chart",
             "scatter_plot": "Scatter plot",
             "sankey_chart": "Sankey flowchart"
+        },
+        "format-tooltip": {
+            "table": "Format the report as a table with most recent sprints first. Some attributes may provide details.",
+            "line_chart": "Format the report as charts with values connected via lines. Some attributes may provide predictions.",
+            "bar_chart": "Format the report as charts with bars. Some attributes may indicate their components.",
+            "area_chart": "Format the report as charts with lines stacked on top of each other.",
+            "scatter_plot": "Format the report as one chart where the first two selected attributes determine the location of each sprint.",
+            "sankey_chart": "Format the report as charts with volumes moving between sprints."
         },
         "exports": {
             "csv": "CSV",

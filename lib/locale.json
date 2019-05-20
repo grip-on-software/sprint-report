@@ -277,7 +277,7 @@
             "target-almost": "Between %s and %s",
             "target-bad": "Worse than %s",
             "prediction-error-probability": "The probability that all stories on the backlog will be resolved on %s is %s.",
-            "prediction-error-margin": "There is a possible margin of error of %s %s, given how earlier sprints have went.",
+            "prediction-error-margin": "There is a possible margin of error of %s %s, based on the performance of earlier sprints.",
             "prediction-density": "Probability that all stories on backlog will be resolved (%s): %s%%",
             "prediction-density-legend": "Probability curve (%s)",
             "sankey-no-details-selected": "Could not display chart because none of the attributes have sufficient details",

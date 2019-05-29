@@ -84,6 +84,21 @@ body {
     }
 }
 
+svg#num-sprints {
+    overflow: visible;
+    clip: auto;
+    .axis .tick {
+        &:first-of-type text {
+            text-anchor: start;
+            font-weight: bold;
+        }
+        &:last-of-type text {
+            text-anchor: end;
+            font-weight: bold;
+        }
+    }
+}
+
 #features {
     margin: .75rem 0 0 .5rem;
     .column {

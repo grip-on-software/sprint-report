@@ -209,10 +209,12 @@ svg#num-sprints {
         }
     }
 }
-.panel-heading .panel-icon {
+.panel-heading {
     cursor: pointer;
-    vertical-align: baseline;
-    margin-right: .25em;
+    .panel-icon {
+        vertical-align: baseline;
+        margin-right: .25em;
+    }
 }
 .panel-block {
     position: relative;

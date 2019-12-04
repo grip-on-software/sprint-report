@@ -138,21 +138,27 @@
         },
         "feature-selection-tooltip": {
             "remove": "Attribuut weghalen",
-            "visibility-visible": "Attribuut overal laten zien",
-            "visibility-team": "Attribuut alleen voor teams laten zien",
-            "visibility-project": "Attribuut alleen voor projecten en componenten laten zien",
-            "visibility-hidden": "Attribuut verbergen",
+            "visibility-visible": "Attribuut overal zichtbaar",
+            "visibility-team": "Attribuut alleen voor teams zichtbaar",
+            "visibility-project": "Attribuut alleen voor projecten en componenten zichtbaar",
+            "visibility-hidden": "Attribuut verborgen",
             "up": "Attribuut eerder laten zien",
             "down": "Attribuut later laten zien"
         },
         "feature-selection-label": {
             "remove": "Attribuut %s weghalen",
-            "visibility-visible": "Attribuut %s overal laten zien",
-            "visibility-team": "Attribuut %s alleen voor teams laten zien",
-            "visibility-project": "Attribuut %s alleen voor projecten en componenten laten zien",
-            "visibility-hidden": "Attribuut %s verbergen",
+            "visibility-visible": "Attribuut %s is overal zichtbaar.",
+            "visibility-team": "Attribuut %s is alleen voor teams zichtbaar.",
+            "visibility-project": "Attribuut %s is alleen voor projecten en componenten zichtbaar.",
+            "visibility-hidden": "Attribuut %s is verborgen.",
             "up": "Attribuut %s eerder laten zien",
             "down": "Attribuut later laten zien"
+        },
+        "feature-selection-toggle": {
+            "visibility-visible": "Klik om het overal te laten zien.",
+            "visibility-team": "Klik om het alleen voor teams te laten zien.",
+            "visibility-project": "Klik om het alleen voor projecten en componenten te laten zien.",
+            "visibility-hidden": "Klik om het te verbergen."
         },
         "units": {
             "change": "Veranderingen",
@@ -343,21 +349,27 @@
         },
         "feature-selection-tooltip": {
             "remove": "Remove attribute",
-            "visibility-visible": "Show attribute everywhere",
-            "visibility-team": "Show attribute only for teams",
-            "visibility-project": "Show attribute only for projects and components",
-            "visibility-hidden": "Hide attribute",
+            "visibility-visible": "Showing attribute everywhere",
+            "visibility-team": "Showing attribute only for teams",
+            "visibility-project": "Showing attribute only for projects and components",
+            "visibility-hidden": "Attribute hidden",
             "up": "Show attribute earlier",
             "down": "Show attribute later"
         },
         "feature-selection-label": {
             "remove": "Remove attribute %s",
-            "visibility-visible": "Show attribute %s everywhere",
-            "visibility-team": "Show attribute %s only for teams",
-            "visibility-project": "Show attribute %s only for projects and components",
-            "visibility-hidden": "Hide attribute %s",
+            "visibility-visible": "Showing attribute %s everywhere.",
+            "visibility-team": "Showing attribute %s only for teams.",
+            "visibility-project": "Showing attribute %s only for projects and components.",
+            "visibility-hidden": "Attribute %s hidden.",
             "up": "Show attribute %s earlier",
             "down": "Show attribute %s later"
+        },
+        "feature-selection-toggle": {
+            "visibility-visible": "Click to show it everywhere.",
+            "visibility-team": "Click to show it only for teams.",
+            "visibility-project": "Click to show it only for projects and components.",
+            "visibility-hidden": "Click to hide it."
         },
         "units": {
             "change": "Changes",

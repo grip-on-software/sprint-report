@@ -4,9 +4,9 @@
 @import "node_modules/@fortawesome/fontawesome-free/scss/solid";
 $warning: hsl(36, 100%, 67%);
 @import "node_modules/bulma/bulma";
-@import "node_modules/bulma-slider/dist/css/bulma-slider";
-@import "node_modules/bulma-tooltip/dist/css/bulma-tooltip";
-@import "node_modules/@gros/visualization-ui/res/spinner";
+@import "node_modules/bulma-slider/src/sass/index";
+@import "node_modules/bulma-tooltip/src/sass/index";
+@import "node_modules/@gros/visualization-ui/res/index";
 
 @media print {
 	#navbar, #options {
@@ -130,11 +130,16 @@ svg#num-sprints {
     overflow: visible;
     .panel:not(:last-child) {
         margin-bottom: 0;
-        .panel-block:not(.drag):last-child {
-            border-bottom: 0;
+        .panel-block:last-child {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            &:not(.drag) {
+                border-bottom: 0;
+            }
         }
     }
     .tabs {
+        background: white;
         li {
             flex-grow: 1;
         }

@@ -49,7 +49,7 @@ pipeline {
             }
             steps {
                 withSonarQubeEnv('SonarQube') {
-                    sh '${SCANNER_HOME}/bin/sonar-scanner -Dsonar.branch=$BRANCH_NAME'
+                    sh '${SCANNER_HOME}/bin/sonar-scanner -Dsonar.projectKey=sprint-report:$BRANCH_NAME -Dsonar.projectName="Sprint Report $BRANCH_NAME"'
                 }
             }
         }

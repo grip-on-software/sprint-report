@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "/bin/sh -ce 'npm run pretest -- $@ && npm run hot -- $@' --",
-    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "cross-env NODE_ENV=production webpack --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -48,6 +48,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "mustache": "^3.2.1",
+    "node-sass": "^4.13.1",
     "regression": "^2.0.1",
     "sprintf-js": "^1.1.2",
     "vulgarities": "0.0.2"

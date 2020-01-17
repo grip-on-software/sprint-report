@@ -23,7 +23,9 @@ Mix.paths.setRootPath(__dirname);
 mix.setPublicPath('public/')
     .setResourceRoot('')
     .js('lib/index.js', 'public/bundle.js')
-    .sass('res/main.scss', 'public/main.css')
+    .sass('res/main.scss', 'public/main.css', {
+        implementation: require('node-sass')
+    })
     .browserSync({
         proxy: false,
         server: 'public',

@@ -10,20 +10,20 @@ $warning: hsl(36, 100%, 67%);
 
 @media print {
 	#navbar, #options {
-		display: none
+		display: none;
 	}
 	.table {
 		.project .display-name, .sprint .tags, .feature .icon {
-			display: none
+			display: none;
 		}
 		tbody {
-			page-break-inside: avoid
+			page-break-inside: avoid;
 		}
 	}
 	.chart {
 		transform: scale(.7) translate(-25%);
 		.details {
-			display: none
+			display: none;
 		}
 	}
 }

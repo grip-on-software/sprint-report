@@ -412,6 +412,12 @@ svg.sankey {
 }
 
 .tooltip {
+    &:not(:hover):not(.has-tooltip-active) {
+        &::before, &::after {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
     &::before, &::after {
         transition: opacity .5s ease;
         opacity: 0;
@@ -419,7 +425,7 @@ svg.sankey {
         position: absolute;
         font-weight: normal;
     }
-    &.is-tooltip-center {
+    &.has-tooltip-center {
         &::before {
             text-align: center;
         }

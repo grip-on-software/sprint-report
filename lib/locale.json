@@ -189,6 +189,17 @@
             "story_points": "SP",
             "num": "Aantal"
         },
+        "details-sort-tooltip": {
+            "domain_name": "het domeinnaam",
+            "avg_value": "de gemiddelde waarde",
+            "end_value": "het eindaantal",
+            "max_value": "de maximumwaarde",
+            "min_value": "de minimumwaarde",
+            "sum_value": "het totaalaantal",
+            "key": "de issue-key",
+            "story_points": "de storypoints",
+            "num": "het aantal"
+        },
         "axis": {
             "yx": "Diagonaal"
         },
@@ -399,6 +410,17 @@
             "key": "Issue key",
             "story_points": "SP",
             "num": "Amount"
+        },
+        "details-sort-tooltip": {
+            "domain_name": "the domain name",
+            "avg_value": "the average value",
+            "end_value": "the end amount",
+            "max_value": "the maximum value",
+            "min_value": "the minimum value",
+            "sum_value": "the total amount",
+            "key": "the issue key",
+            "story_points": "the story points",
+            "num": "the amount"
         },
         "axis": {
             "yx": "Diagonal"

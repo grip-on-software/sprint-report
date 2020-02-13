@@ -187,6 +187,7 @@
             "sum_value": "Aantal",
             "key": "Issue-key",
             "story_points": "SP",
+            "fixversion": "Versie",
             "num": "Aantal"
         },
         "details-sort-tooltip": {
@@ -198,6 +199,7 @@
             "sum_value": "het totaalaantal",
             "key": "de issue-key",
             "story_points": "de storypoints",
+            "fixversion": "de release-versie",
             "num": "het aantal"
         },
         "axis": {
@@ -409,6 +411,7 @@
             "sum_value": "Amount",
             "key": "Issue key",
             "story_points": "SP",
+            "fixversion": "Version",
             "num": "Amount"
         },
         "details-sort-tooltip": {
@@ -420,6 +423,7 @@
             "sum_value": "the total amount",
             "key": "the issue key",
             "story_points": "the story points",
+            "fixversion": "the release version",
             "num": "the amount"
         },
         "axis": {

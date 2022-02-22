@@ -86,7 +86,7 @@ pipeline {
                     sh 'mv output/recent_sprint_features/ public/data/'
                     sh 'rm -rf node_modules/'
                     sh 'ln -s /usr/src/app/node_modules .'
-                    sh 'npm run dev -- --env.mixfile=$PWD/webpack.mix.js'
+                    sh 'npm run dev -- --env mixfile=$PWD/webpack.mix.js'
                 }
                 publishHTML([allowMissing: true, alwaysLinkToLastBuild: false, keepAll: true, reportDir: 'public', reportFiles: 'index.html', reportName: 'Visualization', reportTitles: ''])
             }

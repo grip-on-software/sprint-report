@@ -1,5 +1,6 @@
 const _ = require('lodash'),
       fs = require('fs'),
+      path = require('path'),
       mix = require('laravel-mix'),
       HtmlWebpackPlugin = require('html-webpack-plugin'),
       WebpackAssetsManifest = require('webpack-assets-manifest');
@@ -23,9 +24,7 @@ Mix.paths.setRootPath(__dirname);
 mix.setPublicPath('public/')
     .setResourceRoot('')
     .js('lib/index.js', 'public/bundle.js')
-    .sass('res/main.scss', 'public/main.css', {
-        implementation: require('node-sass')
-    })
+    .sass('res/main.scss', 'public/main.css')
     .browserSync({
         proxy: false,
         server: 'public',

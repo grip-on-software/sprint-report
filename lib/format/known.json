@@ -14,7 +14,7 @@
     {
         "name": "bar_chart",
         "class": "BarChart",
-        "icon": ["fas", "fa-chart-bar"],
+        "icon": ["fas", "fa-chart-column"],
         "features": ["!attributes", "compound"]
     },
     {

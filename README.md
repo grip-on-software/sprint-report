@@ -27,8 +27,8 @@ settings in that file. The following configuration items are known:
   string, then these elements are not linked or even not added to the report.
 - `access_url`: The URL pointing to a JSON endpoint that indicates which 
   projects, teams and components should be displayed most prominently to the 
-  user for selection. If available, the JSON in the reponse must be an array of 
-  project identifiers (keys or names) as strings. If the array is empty or 
+  user for selection. If available, the JSON in the response must be an array 
+  of project identifiers (keys or names) as strings. If the array is empty or 
   contains a string `"*"`, then project selection does not perform further 
   filtering, otherwise the selector will display the indicated projects and 
   potentially display them in the report if the URL hash indicates to do so 
@@ -55,7 +55,7 @@ a minimized bundle. The resulting HTML, CSS and JavaScript is made available in
 the `public` directory.
 
 This repository also contains a `Dockerfile` specification for a Docker image 
-that can performs the installation of the app and dependencies, which allows 
+that can perform the installation of the app and dependencies, which allows 
 building the visualization within there. The `Jenkinsfile` contains appropriate 
 steps for a Jenkins CI deployment, including data collection and visualization 
 building.

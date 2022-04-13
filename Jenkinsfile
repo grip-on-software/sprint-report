@@ -62,7 +62,7 @@ pipeline {
         stage('Collect') {
             agent {
                 docker {
-                    image '$DOCKER_REGISTRY/gros-data-analysis-dashboard'
+                    image "${env.DOCKER_REGISTRY}/gros-data-analysis-dashboard"
                     reuseNode true
                 }
             }
@@ -75,7 +75,7 @@ pipeline {
         stage('Visualize') {
             agent {
                 docker {
-                    image '$DOCKER_REGISTRY/gros-sprint-report:$IMAGE_TAG'
+                    image "${env.DOCKER_REGISTRY}/gros-sprint-report:${env.IMAGE_TAG}"
                     reuseNode true
                 }
             }

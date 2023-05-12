@@ -411,23 +411,47 @@ svg.sankey {
     }
 }
 
-.tooltip {
-    &:not(:hover):not(.has-tooltip-active) {
-        &::before, &::after {
-            opacity: 0;
-            visibility: hidden;
+.tooltip[data-tooltip] {
+    /* Override some incorrect selectors for tooltip without loading */
+    &.is-loading {
+        &::after {
+            box-sizing: inherit;
+            display: block;
+            position: absolute;
+            font-size: 1rem;
+            opacity: 1;
+            visibility: visible;
+            margin: 0;
+            left: calc(50% - (1em * 0.5));
+            top: calc(50% - (1em * 0.5));
         }
     }
-    &::before, &::after {
-        transition: opacity .5s ease;
-        opacity: 0;
-        content: '';
-        position: absolute;
-        font-weight: normal;
-    }
-    &.has-tooltip-center {
-        &::before {
-            text-align: center;
+    &:not(.is-loading) {
+        &:not(:hover):not(.has-tooltip-active) {
+            &::before, &::after {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+        &::before, &::after {
+            transition: opacity .5s ease;
+            font-weight: normal;
+        }
+        &.has-tooltip-center {
+            &::before {
+                text-align: center;
+            }
+        }
+        /* Correct some incorrect selectors in direction/color combination */
+        @each $name, $pair in $colors {
+            $color: nth($pair, 1);
+            &.has-tooltip-#{$name} {
+                &.has-tooltip-bottom {
+                    &::after {
+                        border-color: transparent transparent rgba($color, $tooltip-background-opacity) transparent;
+                    }
+                }
+            }
         }
     }
 }

@@ -61,6 +61,9 @@ mix.setPublicPath('public/')
         }
     })
     .webpackConfig({
+        optimization: {
+            chunkIds: 'named'
+        },
         output: {
             path: path.resolve('public/'),
             publicPath: (configuration.path === "" ? "" : configuration.path + "/")

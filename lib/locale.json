@@ -89,6 +89,7 @@
             "error-message": "Kon gegevens niet laden: %s",
             "no-value": "N/A",
             "range-value": "%s \u2014 %s",
+            "export-html-tooltip": "Download gestart. Het uitgepakte archief kan alleen worden gebruikt op een server!",
             "export-link-copy": "Kopieer de link naar het klembord met behulp van #{key}",
             "export-link-tooltip": "Link naar het klembord gekopieerd"
         },
@@ -119,7 +120,7 @@
         "export_tooltip": {
             "csv": "Tabelformaat downloaden",
             "json": "Objectstructuur bekijken",
-            "html": "Archiefbestand downloaden",
+            "html": "Archiefbestand downloaden geschikt voor een server",
             "link": "Link naar het klembord kopiëren",
             "print": "Afdrukformulier openen",
             "pdf": "PDF-versie bekijken"
@@ -313,6 +314,7 @@
             "error-message": "Could not load data: %s",
             "no-value": "n/a",
             "range-value": "%s \u2014 %s",
+            "export-html-tooltip": "Download started. The extracted archive can only be used on a server!",
             "export-link-copy": "Press #{key} to copy the link to the clipboard",
             "export-link-tooltip": "Copied link to the clipboard"
         },
@@ -343,7 +345,7 @@
         "export_tooltip": {
             "csv": "Download table format",
             "json": "View object structure",
-            "html": "Download archive file",
+            "html": "Download archive file suitable for a server",
             "link": "Copy link to clipboard",
             "print": "Open print form",
             "pdf": "View PDF version"

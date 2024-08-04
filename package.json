@@ -1,7 +1,11 @@
 {
   "name": "@gros/sprint-report",
   "version": "0.0.1",
-  "description": "Dynamic sprint report generator in comparison visuaization formats.",
+  "description": "Dynamic sprint report generator in comparison visualization formats.",
+  "keywords": [
+      "visualization",
+      "decision-support"
+  ],
   "license": "Apache-2.0",
   "author": "Leon Helwerda <l.s.helwerda@liacs.leidenuniv.nl>",
   "files": [
@@ -9,12 +13,13 @@
       "lib/**/*.json",
       "public/*.css",
       "public/*.html",
-      "public/*.js",
-      "public/*.js.LICENSE.txt",
+      "public/**/*.js",
+      "public/**/*.js.LICENSE.txt",
       "public/fonts/",
       "public/assets-manifest.json",
       "public/mix-manifest.json",
-      "res/*.scss"
+      "res/*.scss",
+      "template/*.mustache"
   ],
   "directories": {
       "dist": "public",

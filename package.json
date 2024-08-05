@@ -19,7 +19,8 @@
       "public/assets-manifest.json",
       "public/mix-manifest.json",
       "res/*.scss",
-      "template/*.mustache"
+      "template/*.mustache",
+      "webpack.mix.js"
   ],
   "directories": {
       "dist": "public",
